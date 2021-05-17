@@ -1,0 +1,16 @@
+{
+  "name": "google-libphonenumber",
+  "version": "1.0.0",
+  "description": "testing google-libphonenumber@3.0.12",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Franz Pasulohan",
+  "license": "ISC",
+  "dependencies": {
+    "google-libphonenumber": "^3.0.12",
+    "google-libphonenumber-latest": "npm:google-libphonenumber@^3.2.21"
+  }
+}
