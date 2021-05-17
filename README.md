@@ -15,7 +15,9 @@ User couldn't log in as they were told they had no account. User then couldn't s
 To further investigate:
 
 1. Clone the repo
-2. Install the packages with `npm i`
-3. Run with `npm run start`
+2. Check that ur using `npm v10.15.3`
+3. Add the invalid number in `invalidPhone` like `+61xxxxxxxxx`
+4. To check the result of the current the app is using (v3.0.12), do `npm run current`
+5. To check the result of if we update to latest version (v3.2.21), do `npm run latest`
 
 You can also investigate other phone numbers by changing the `invalidPhone`

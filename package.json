@@ -1,16 +1,17 @@
 {
-  "name": "google-libphonenumber",
+  "name": "google-libphonenumber-test",
   "version": "1.0.0",
   "description": "testing google-libphonenumber@3.0.12",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "clean": "rm -rf node_modules",
+    "current": "npm ci && npm i google-libphonenumber@3.0.12 &&  node index.js",
+    "latest": "npm ci && npm i google-libphonenumber && node index.js"
   },
   "author": "Franz Pasulohan",
   "license": "ISC",
   "dependencies": {
-    "google-libphonenumber": "^3.0.12",
-    "google-libphonenumber-latest": "npm:google-libphonenumber@^3.2.21"
+    "google-libphonenumber": "^3.0.12"
   }
 }
